@@ -1,17 +1,17 @@
 {
   "expo": {
     "name": "Places",
-    "slug": "Places",
+    "slug": "your_places",
+    "description": "You can make a list of your places like contacts. This will be your place list managed inside your pocket" ,
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon_splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -23,6 +23,15 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.bhaveshk.your_places",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDqenfiwl0C1GW556DPjxeA6o072uVg_kg"
+        }
+      }
     }
   }
 }
